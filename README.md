@@ -3,7 +3,7 @@
 
 ## Overview
 This project is a Cloud-Native REST API that tracks visitor counts. It demonstrates **Infrastructure as Code (IaC)** by using Terraform to provision the database and Python (Flask) for the backend logic.
-![Bitcoin Price Trend](visitor.png)|(graph.png)
+![Bitcoin Price Trend](visitor.png|graph.png)
 
 ## Architecture
 * **Language:** Python (Flask)
