@@ -3,7 +3,6 @@
 
 ## Overview
 This project is a Cloud-Native REST API that tracks visitor counts. It demonstrates **Infrastructure as Code (IaC)** by using Terraform to provision the database and Python (Flask) for the backend logic.
-![Bitcoin Price Trend](visitor.png|graph.png)
 
 ## Architecture
 * **Language:** Python (Flask)
@@ -20,3 +19,13 @@ This project is a Cloud-Native REST API that tracks visitor counts. It demonstra
 1.  Install Terraform & Python.
 2.  Run `terraform apply` to build the infrastructure.
 3.  Run `python app.py` to start the server.
+
+## Demo
+
+### 1. Working API Output
+This screenshot confirms the Python Flask API successfully connected to DynamoDB to retrieve and increment the visitor count.
+![Visitor Count Screenshot](visitor.png)
+
+### 2. CloudWatch Monitoring
+This graph shows custom metrics being pushed to AWS CloudWatch every time the API is hit, proving observability.
+![CloudWatch Graph](graph.png)
